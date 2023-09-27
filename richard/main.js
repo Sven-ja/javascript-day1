@@ -41,8 +41,7 @@ console.log(pets);
 
 // intermediate 3
 
-let fruit_Line = ["mango/cherries/kiwi/grapes/pear/peach/orange/lemon"]
+let fruit_Line = "mango/cherries/kiwi/grapes/pear/peach/orange/lemon"
 
-let fruit_sorted = new Array();
-fruit_sorted = fruit_Line.split("/");
+let fruit_sorted = fruit_Line.split("/").join("\n");
 console.log(fruit_sorted);
