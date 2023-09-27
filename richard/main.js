@@ -69,4 +69,8 @@ console.log(multiplied);
 
 // advanced 2
 
+let people = ["Greg", "Mary", "Devon", "James"];
+console.log(people);
+people.shift();
+console.log(people);
 
