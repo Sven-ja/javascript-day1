@@ -74,3 +74,22 @@ console.log(people);
 people.shift();
 console.log(people);
 
+people.unshift("Matt");
+console.log(people);
+
+people.pop();
+console.log(people);
+
+people.push("Richard");
+console.log(people);
+
+console.log(people.slice(2, 4));
+console.log(people);
+console.log(people.indexOf("Mary"));
+console.log(people.indexOf("Foo"));
+
+let people2 = ["Greg", "Mary", "Devon", "James"];
+people2.splice(2,1 ,"Elizabeth" ,"Anna")
+console.log(people2);
+
+
