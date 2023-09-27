@@ -27,7 +27,6 @@ console.log(animals);
 let fruitsalad = "mango/cherries/kiwi/grapes/pear/peach/orange/lemon";
 console.log(fruitsalad);
 
-fruitsalad.slice();
 let fruits = fruitsalad.split("/");
 console.log(fruits);
 
