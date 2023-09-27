@@ -1,10 +1,12 @@
+// Svenjas File
+
 console.log("Hello");
 document.write("Hello");
 
 let age = 52;
-console.log(age); 
+console.log(age);
 age = 51;
-console.log(age); 
+console.log(age);
 
 console.log(`I am ${age} years old.`);
 
