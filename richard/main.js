@@ -45,3 +45,28 @@ let fruit_Line = "mango/cherries/kiwi/grapes/pear/peach/orange/lemon"
 
 let fruit_sorted = fruit_Line.split("/").join("\n");
 console.log(fruit_sorted);
+
+// advanced 1
+
+let a = 7;
+let b = 14;
+let c = "21";
+let d = '36';
+let e = 42;
+c = Number(c);
+d = Number(d);
+let sum = (a+b+c+d+e);
+console.log(sum);
+
+let f = '1';
+let g = 15;
+let h = 8;
+let i = "1";
+f = Number(f);
+i = Number(i);
+let multiplied = (f*g*h*i);
+console.log(multiplied);
+
+// advanced 2
+
+
