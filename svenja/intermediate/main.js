@@ -21,3 +21,17 @@ console.log(animals);
 
 animals.unshift("cat");
 console.log(animals);
+
+
+// EXERCISE 3
+let fruitsalad = "mango/cherries/kiwi/grapes/pear/peach/orange/lemon";
+console.log(fruitsalad);
+
+fruitsalad.slice();
+let fruits = fruitsalad.split("/");
+console.log(fruits);
+
+let fruitList = fruits.join("<br><br>");
+document.write(fruitList);
+
+
