@@ -1,17 +1,11 @@
-// Svenjas File
+document.write("Hello from the Browser");
+console.log("Hello from the Console");
 
-console.log("Hello");
-document.write("Hello");
+let myName = "Hi my name is Svenja";
+console.log(myName);
 
-let age = 52;
-console.log(age);
-age = 51;
-console.log(age);
+let age = 32;
+console.log("and I am " + age + " years old.");
 
-console.log(`I am ${age} years old.`);
-
-let players = ["Martin", "Thomas", "Peter", "Mathias", "Niki"];
-
-console.log(players)
-
-console.log(`The most valuable player of the match is ${players[2]}.`)
+const players = ["Martin", "Thomas", "Peter", "Mathias", "Niki"];
+console.log("The most valuable player of the match is " + players[2]);

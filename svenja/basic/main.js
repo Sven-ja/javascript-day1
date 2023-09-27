@@ -1,3 +1,6 @@
+
+// basic
+
 document.write("Hello from the Browser");
 console.log("Hello from the Console");
 
@@ -9,3 +12,9 @@ console.log(`and I am ${age} years old.`);
 
 const players = ["Martin", "Thomas", "Peter", "Mathias", "Niki"];
 console.log("The most valuable player of the match is " + players[2]);
+
+// intermediate
+
+const cars = ["Tesla", "Audi", "Renault", "Volvo", "Mazda", "Fiat", "Ferrari"]
+
+console.log[cars;
