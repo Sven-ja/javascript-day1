@@ -1,20 +1,23 @@
+// EXERCISE 1
+const cars = ["Tesla", "Audi", "Renault", "Volvo", "Mazda", "Fiat", "Ferrari"];
+console.log(cars);
 
-// basic
+console.log(cars.sort());
 
-document.write("Hello from the Browser");
-console.log("Hello from the Console");
 
-let myName = "Hi my name is Svenja";
-console.log(myName);
+// EXERCISE 2
+const fruit = ["apple", "banana", "kiwi"];
 
-let age = 32;
-console.log("and I am " + age + " years old.");
+fruit.push("orange");
+console.log(fruit);
 
-const players = ["Martin", "Thomas", "Peter", "Mathias", "Niki"];
-console.log("The most valuable player of the match is " + players[2]);
+fruit.pop();
+console.log(fruit);
 
-// intermediate
 
-const cars = ["Tesla", "Audi", "Renault", "Volvo", "Mazda", "Fiat", "Ferrari"]
+const animals = ["monkey", "horse", "dog"];
+animals.sort();
+console.log(animals);
 
-console.log[cars;
+animals.unshift("cat");
+console.log(animals);
